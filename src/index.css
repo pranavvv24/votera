@@ -1,0 +1,30 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: 'Space Grotesk', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-mono: 'IBM Plex Mono', monospace;
+  
+  --color-brand-primary: #38BDF8;
+  --color-brand-secondary: #818CF8;
+  --color-brand-accent: #10B981;
+  --color-brand-dark: #0B0F19;
+  --color-brand-card: #131B2E;
+  --color-brand-border: #1E293B;
+}
+
+:root {
+  font-family: var(--font-sans);
+  color-scheme: dark;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  background-color: #0B0F19;
+  color: #F8FAFC;
+}
+
+code, pre, .font-mono {
+  font-family: var(--font-mono);
+}
